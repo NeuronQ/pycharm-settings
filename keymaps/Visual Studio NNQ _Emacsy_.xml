@@ -1,10 +1,14 @@
 <keymap version="1" name="Visual Studio NNQ (Emacsy)" parent="Visual Studio">
-  <action id="$SelectAll">
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
-  </action>
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -14,33 +18,16 @@
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl asterisk" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
-  <action id="EditorCodeBlockStart" />
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-  </action>
-  <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
-  </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="alt f" />
-  </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -55,10 +42,6 @@
     <keyboard-shortcut first-keystroke="shift tab" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -69,8 +52,19 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="shift ctrl period" second-keystroke="t" />
+  </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="Print" />
   <action id="RecentFiles" />
@@ -81,10 +75,13 @@
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="ShowContent" />
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt multiply" />
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.ShowMessageHistory" />
+  <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.MoveWatchUp" />
   <action id="hg4idea.QFold" />
 </keymap>

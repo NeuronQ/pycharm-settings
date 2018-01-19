@@ -1,14 +1,14 @@
 <scheme name="Vim Desert NNQ" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.5" />
   <metaInfo>
     <property name="created">2018-01-02T17:01:50</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-01-02T17:05:23</property>
+    <property name="modified">2018-01-19T10:15:49</property>
     <property name="originalScheme">Vim Desert</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.15" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_SIZE" value="19" />
   <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
@@ -31,7 +31,7 @@
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="GUTTER_BACKGROUND" value="262626" />
-    <option name="INDENT_GUIDE" value="587b18" />
+    <option name="INDENT_GUIDE" value="2a3b0b" />
     <option name="LINE_NUMBERS_COLOR" value="605f00" />
     <option name="METHOD_SEPARATORS_COLOR" value="3c3c3c" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
@@ -41,6 +41,7 @@
     <option name="SELECTED_TEARLINE_COLOR" value="587b18" />
     <option name="SELECTION_BACKGROUND" value="587b18" />
     <option name="SELECTION_FOREGROUND" value="f6e06b" />
+    <option name="SEPARATOR_BELOW_COLOR" value="" />
     <option name="TEARLINE_COLOR" value="3c3c3c" />
     <option name="WHITESPACES" value="505050" />
   </colors>
@@ -244,7 +245,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="df8c69" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -314,12 +315,17 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ffd493" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -537,21 +543,13 @@
         <option name="FOREGROUND" value="708bb2" />
       </value>
     </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="cf96f1" />
       </value>
     </option>
-    <option name="PY.PREDEFINED_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="cb00cb" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="bf6eb6" />

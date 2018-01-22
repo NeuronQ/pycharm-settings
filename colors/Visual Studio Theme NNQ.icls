@@ -3,14 +3,14 @@
     <property name="created">2018-01-02T17:01:20</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-01-02T17:05:23</property>
+    <property name="modified">2018-01-22T14:23:18</property>
     <property name="originalScheme">Visual Studio Theme</property>
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="eeeeee" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="INDENT_GUIDE" value="e0efff" />
-    <option name="LINE_NUMBERS_COLOR" value="0" />
+    <option name="LINE_NUMBERS_COLOR" value="c0bdb8" />
     <option name="METHOD_SEPARATORS_COLOR" value="eeeeee" />
     <option name="RIGHT_MARGIN_COLOR" value="" />
     <option name="SELECTED_INDENT_GUIDE" value="0" />

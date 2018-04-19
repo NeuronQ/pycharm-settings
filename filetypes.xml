@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="activate_example" type="PLAIN_TEXT" />
       <mapping pattern="activate" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

@@ -80,6 +80,9 @@
     <keyboard-shortcut first-keystroke="alt multiply" />
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="Vcs.ShowMessageHistory" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />

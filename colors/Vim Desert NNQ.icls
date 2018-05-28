@@ -1,15 +1,11 @@
 <scheme name="Vim Desert NNQ" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.5" />
   <metaInfo>
     <property name="created">2018-01-02T17:01:50</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-01-19T10:15:49</property>
+    <property name="modified">2018-05-26T20:52:11</property>
     <property name="originalScheme">Vim Desert</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.15" />
-  <option name="EDITOR_FONT_SIZE" value="19" />
-  <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />

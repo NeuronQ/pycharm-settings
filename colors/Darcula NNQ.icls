@@ -3,9 +3,17 @@
     <property name="created">2017-12-27T22:54:21</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2017.3.1.0.0</property>
-    <property name="modified">2018-05-26T20:39:26</property>
+    <property name="modified">2018-07-13T08:55:04</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
+  <colors>
+    <option name="GUTTER_BACKGROUND" value="2b2b2b" />
+    <option name="INDENT_GUIDE" value="2b2b2b" />
+    <option name="LINE_NUMBERS_COLOR" value="484b4e" />
+    <option name="RIGHT_MARGIN_COLOR" value="" />
+    <option name="SELECTED_INDENT_GUIDE" value="3c3f41" />
+    <option name="VISUAL_INDENT_GUIDE" value="" />
+  </colors>
   <attributes>
     <option name="BAD_CHARACTER">
       <value>
@@ -27,6 +35,7 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="ecf7ff" />
         <option name="BACKGROUND" value="7b4e3d" />
         <option name="EFFECT_COLOR" value="bc3f3c" />
         <option name="ERROR_STRIPE_COLOR" value="9e2927" />
